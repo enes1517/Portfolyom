@@ -1,0 +1,622 @@
+[
+  {
+    "id": "rentflow",
+    "name": "RentFlow — Dağıtık Kira Yönetim Sistemi",
+    "repoName": "RentFlow_Microservice_Project",
+    "url": "https://github.com/enes1517/RentFlow_Microservice_Project",
+    "featured": true,
+    "category": "microservices",
+    "lang": "csharp",
+    "langName": "C# / Angular",
+    "badge": "Enterprise Mikroservis",
+    "icon": "🏢",
+    "desc": ".NET 10 ve Angular 22 ile geliştirilmiş akıllı ve dağıtık kira yönetim ekosistemi. Keycloak 24.0 (OAuth2/OIDC) merkezi kimlik doğrulama, RabbitMQ asenkron mesajlaşma, API Gateway ve Docker Compose multi-container orkestrasyonu içerir.",
+    "tags": [
+      ".NET 10",
+      "Angular 22",
+      "Microservices",
+      "RabbitMQ",
+      "Docker Compose",
+      "Keycloak 24",
+      "Clean Architecture"
+    ],
+    "highlights": [
+      ".NET 10 ve Angular 22 ile tam dağıtık mimari",
+      "Keycloak 24.0 ile OAuth2 & OpenID Connect merkezi kimlik yönetimi",
+      "RabbitMQ ile event-driven servisler arası asenkron kuyruk iletişimi",
+      "Docker Compose ile tek komutla ayağa kaldırılabilen multi-container ortamı",
+      "Clean Architecture ve Domain-Driven Design (DDD) prensipleri"
+    ]
+  },
+  {
+    "id": "urban-news",
+    "name": "Kentsel Haber İzleme Sistemi",
+    "repoName": "Urban_News_Monitoring_Project",
+    "url": "https://github.com/enes1517/Urban_News_Monitoring_Project",
+    "featured": true,
+    "category": "microservices",
+    "lang": "csharp",
+    "langName": "C# / Python",
+    "badge": "Event-Driven & AI",
+    "icon": "🗺️",
+    "desc": "Kocaeli yerel haber sitelerini gerçek zamanlı kazıyan (scraping), ML.NET 3.0 (TF-IDF + SdcaMaximumEntropy) ile kentsel olayları sınıflandıran, Cosine Similarity ile kopya haberleri engelleyen ve Google Maps üzerinde konumlandıran mikroservis platformu.",
+    "tags": [
+      ".NET 10",
+      "MassTransit",
+      "RabbitMQ",
+      "ML.NET 3.0",
+      "MongoDB",
+      "Google Maps API",
+      "NLP"
+    ],
+    "highlights": [
+      "RabbitMQ ve MassTransit ile olay güdümlü (event-driven) mikroservis ekosistemi",
+      "ML.NET 3.0 hibrit NLP sınıflandırma hattı (TF-IDF + SdcaMaximumEntropy)",
+      "URL normalizasyonu ve Cosine Similarity ile 3 katmanlı kopya haber engelleme",
+      "MongoDB üzerinde çoklu kaynak raporlama ve Google Maps koordinat görselleştirme",
+      "Arka plan Worker servisleri ile kesintisiz veri toplama"
+    ]
+  },
+  {
+    "id": "social-library",
+    "name": "Web Tabanlı Sosyal Kütüphane Platformu",
+    "repoName": "Social_Library_.Net_React",
+    "url": "https://github.com/enes1517/Social_Library_.Net_React",
+    "featured": true,
+    "category": "csharp",
+    "lang": "csharp",
+    "langName": "C# / React",
+    "badge": "Full-Stack SPA",
+    "icon": "📚",
+    "desc": "Kitap ve film tutkunlarını bir araya getiren sosyal katalog ve keşif platformu. ASP.NET Web API backend, N-Tier mimari, Entity Framework Core, kriptografik JWT kimlik doğrulama ve modern React tek sayfa (SPA) arayüzü.",
+    "tags": [
+      "ASP.NET API",
+      "React",
+      "Entity Framework",
+      "N-Tier",
+      "JWT Auth",
+      "SQL Server"
+    ],
+    "highlights": [
+      "N-Tier Architecture ile temiz katman ayrımı (API, BLL, DAL)",
+      "Kriptografik parola hashleme ve güvenli JWT Authentication/Authorization",
+      "Entity Framework Core ile optimize edilmiş ilişkisel veritabanı sorguları",
+      "Kullanıcı kitap & film listeleri, yorum ve etkileşim sistemi",
+      "Modern, hızlı ve responsive React frontend arayüzü"
+    ]
+  },
+  {
+    "id": "trtek-ideapool",
+    "name": "TrTek Fikir Havuzu (Idea Pool)",
+    "repoName": "TRtek-Ideapool",
+    "url": "https://github.com/enes1517/TRtek-Ideapool",
+    "featured": true,
+    "category": "mobile",
+    "lang": "dart",
+    "langName": "Flutter / C#",
+    "badge": "Kurumsal Staj Projesi",
+    "icon": "💡",
+    "desc": "TRtek stajında geliştirilen kurumsal inovasyon platformu. Şirket çalışanlarının web ve mobil üzerinden fikir önerip oylayabildiği cross-platform Flutter/Dart uygulaması ve N-Tier ASP.NET Core Web API backend altyapısı.",
+    "tags": [
+      "Flutter",
+      "Dart",
+      "ASP.NET Core Web API",
+      "PostgreSQL",
+      "Docker",
+      "JWT RBAC",
+      "Unit of Work"
+    ],
+    "highlights": [
+      "Çapraz platform (iOS, Android, Web) Flutter & Dart kullanıcı deneyimi",
+      "N-Tier Architecture, Repository ve Unit of Work tasarım desenleri",
+      "AutoMapper nesne eşleme ve Role-Based Access Control (RBAC)",
+      "Multi-container ortamı (API, Client, PostgreSQL) Docker orkestrasyonu",
+      "Gerçek kurumsal ortamda canlı kullanılan inovasyon süreci yönetimi"
+    ]
+  },
+  {
+    "id": "aihach",
+    "name": "AiHach — AI & NLP Destekli Akıllı Ürün Öneri Motoru",
+    "repoName": "AiHach",
+    "url": "https://github.com/enes1517/AiHach",
+    "featured": true,
+    "category": "ai",
+    "lang": "python",
+    "langName": "Python / C#",
+    "badge": "Yapay Zeka & LLM",
+    "icon": "🧠",
+    "desc": "Doğal Dil İşleme (NLP) ve LLM mantık zincirleri ile serbest metin girdilerini analiz edip Trendyol üzerinden en uygun ürünleri eşleştiren ve öneren akıllı sistem.",
+    "tags": [
+      "Gemini AI",
+      "LangChain",
+      "LangGraph",
+      "ASP.NET MVC",
+      "Selenium",
+      "NLP"
+    ],
+    "highlights": [
+      "Gemini AI ile doğal dil isteklerinin anlamsal (semantic) çözümlenmesi",
+      "LangChain & LangGraph ile dinamik karar ağacı ve akış yönetimi",
+      "Selenium ile e-ticaret sitelerinden dinamik veri kazıma (scraping)",
+      "Kullanıcı dostu filtreleme ve ASP.NET MVC arayüz entegrasyonu",
+      "Geleneksel anahtar kelime araması yerine anlamsal filtreleme mimarisi"
+    ]
+  },
+  {
+    "id": "car-body-classifier",
+    "name": "Araç Gövde Tipi Sınıflandırma (AI / Vision)",
+    "repoName": "car_body_type_classifier",
+    "url": "https://github.com/enes1517/car_body_type_classifier",
+    "featured": true,
+    "category": "ai",
+    "lang": "python",
+    "langName": "Python / C#",
+    "badge": "Computer Vision",
+    "icon": "🚗",
+    "desc": "Görüntü işleme ve derin öğrenme teknikleri kullanılarak araçların gövde tiplerini (Sedan, SUV, Hatchback vb.) yüksek doğrulukla sınıflandıran uçtan uca yapay zeka sistemi. FastAPI REST API ve ASP.NET Core entegrasyonu.",
+    "tags": [
+      "Deep Learning",
+      "Computer Vision",
+      "FastAPI",
+      "ASP.NET Core",
+      "Python",
+      "CNN"
+    ],
+    "highlights": [
+      "Evrişimli Sinir Ağları (CNN) ile model eğitimi ve ağırlık optimizasyonu",
+      "FastAPI ile yüksek performanslı çıkarım (inference) REST servisi",
+      "ASP.NET Core ve modern web ön yüzü ile uçtan uca sistem entegrasyonu",
+      "Görüntü ön işleme, veri artırma (augmentation) ve doğrulama metrikleri",
+      "Gerçek zamanlı araç tipi tespiti ve sınıf güvenilirlik skoru üretimi"
+    ]
+  },
+  {
+    "id": "trtek-mailapp",
+    "name": "MailApp — Kurumsal Toplu E-Posta Yönetimi",
+    "repoName": "TRtek-MailApp",
+    "url": "https://github.com/enes1517/TRtek-MailApp",
+    "featured": false,
+    "category": "csharp",
+    "lang": "csharp",
+    "langName": "C# / MVC",
+    "badge": "Kurumsal Çözüm",
+    "icon": "✉️",
+    "desc": "ASP.NET Core 8 MVC mimarisi ile geliştirilmiş, kullanıcıların abone listelerini yönetebileceği, HTML tabanlı özel e-posta şablonları tasarlayabileceği ve arka planda toplu e-posta gönderimleri yapabileceği yönetim paneli.",
+    "tags": [
+      "ASP.NET Core 8",
+      "MVC",
+      "Email Engine",
+      "HTML Templates",
+      "C#"
+    ],
+    "highlights": [
+      "Dinamik abone listesi yönetimi",
+      "Özel HTML şablon motoru",
+      "Arka plan asenkron gönderim"
+    ]
+  },
+  {
+    "id": "microservice-project",
+    "name": "Microservices Architecture Demo",
+    "repoName": "Microservice_Project",
+    "url": "https://github.com/enes1517/Microservice_Project",
+    "featured": false,
+    "category": "microservices",
+    "lang": "csharp",
+    "langName": "C# / Angular",
+    "badge": "Mikroservis",
+    "icon": "☁️",
+    "desc": ".NET 10 ve Angular 18 ile geliştirilmiş; Ocelot API Gateway, Orchestrator Pattern, Refit type-safe REST istemcisi ve Clean Architecture prensiplerini uygulayan mikroservis mimari referans projesi.",
+    "tags": [
+      ".NET 10",
+      "Ocelot Gateway",
+      "Refit",
+      "Clean Architecture",
+      "Angular 18"
+    ],
+    "highlights": [
+      "Ocelot API Gateway",
+      "Refit REST iletişimi",
+      "Orchestrator Pattern"
+    ]
+  },
+  {
+    "id": "diabetes-system",
+    "name": "Diyabet Takip ve Yönetim Sistemi",
+    "repoName": "Diabetes-System-Mvc",
+    "url": "https://github.com/enes1517/Diabetes-System-Mvc",
+    "featured": false,
+    "category": "csharp",
+    "lang": "csharp",
+    "langName": "C# / MVC",
+    "badge": "Sağlık Bilişimi",
+    "icon": "🩺",
+    "desc": "Diyabet hastalarının kan şekeri ölçümlerini, ilaç saatlerini ve doktor takip süreçlerini yöneten tam kapsamlı ASP.NET MVC sağlık sistemi. Hasta yönetimi, ölçüm grafikleri ve doktor onay modülü.",
+    "tags": [
+      "ASP.NET MVC",
+      "C#",
+      "Healthcare",
+      "Hasta Yönetimi",
+      "SQL Server"
+    ],
+    "highlights": [
+      "Kan şekeri ölçüm takibi",
+      "Doktor-hasta iletişim paneli",
+      "Raporlama ve grafikler"
+    ]
+  },
+  {
+    "id": "dynamic-exam",
+    "name": "Dinamik Sınav Takvimi & Oturma Planı",
+    "repoName": "Dynamic_Exam_Schedule_Creation_System",
+    "url": "https://github.com/enes1517/Dynamic_Exam_Schedule_Creation_System",
+    "featured": false,
+    "category": "system",
+    "lang": "python",
+    "langName": "Python",
+    "badge": "Optimizasyon",
+    "icon": "📅",
+    "desc": "Üniversite sınav takvimlerini ve öğrenci oturma planlarını çakışmasız biçimde optimize eden masaüstü yazılımı. PyQt5 GUI, SQLite3, Pandas Excel entegrasyonu ve ReportLab PDF döküm motoru.",
+    "tags": [
+      "Python",
+      "PyQt5",
+      "SQLite3",
+      "Pandas",
+      "Optimizasyon",
+      "ReportLab PDF"
+    ],
+    "highlights": [
+      "Excel ders/öğrenci entegrasyonu",
+      "Çakışmasız oturma optimizasyonu",
+      "Otomatik PDF döküm"
+    ]
+  },
+  {
+    "id": "word-crush",
+    "name": "Word Crush — Akıllı Kelime Oyunu",
+    "repoName": "Word_Crush_Project",
+    "url": "https://github.com/enes1517/Word_Crush_Project",
+    "featured": false,
+    "category": "mobile",
+    "lang": "csharp",
+    "langName": "C# / JS",
+    "badge": "Oyun Motoru",
+    "icon": "🧩",
+    "desc": "C# .NET Core oyun motoru mantığı ile geliştirilmiş; yerçekimi simülasyonu, kombo algoritmaları, market mekanikleri ve akıllı kelime sözlüğü içeren bulmaca oyunu.",
+    "tags": [
+      "C# .NET Core",
+      "JavaScript",
+      "Game Engine",
+      "Physics",
+      "HTML5"
+    ],
+    "highlights": [
+      "Fizik ve yerçekimi simülasyonu",
+      "Kombo ve çarpan algoritmaları",
+      "Market ve güç mekanikleri"
+    ]
+  },
+  {
+    "id": "war-simulation",
+    "name": "Savaş Simülasyonu (OpenGL & GLUT)",
+    "repoName": "War-Simulation-Project",
+    "url": "https://github.com/enes1517/War-Simulation-Project",
+    "featured": false,
+    "category": "system",
+    "lang": "c",
+    "langName": "C / OpenGL",
+    "badge": "Sistem & Grafik",
+    "icon": "⚔️",
+    "desc": "C diliyle geliştirilen; İnsanlar ve Orklar arasındaki taktiksel savaş senaryolarını uzaktan cURL ile çekip hesaplayan ve OpenGL (GLUT) ile görselleştiren gerçek zamanlı savaş simülasyonu.",
+    "tags": [
+      "C Language",
+      "OpenGL GLUT",
+      "cURL",
+      "Memory Management",
+      "Simülasyon"
+    ],
+    "highlights": [
+      "Uzak sunucudan dinamik senaryo çekme",
+      "Adım adım savaş günlüğü",
+      "OpenGL gerçek zamanlı render"
+    ]
+  },
+  {
+    "id": "route-planning",
+    "name": "Ulaşım Rota Planlama Sistemi",
+    "repoName": "Ulasim-Rota-Planlama-Sistemi",
+    "url": "https://github.com/enes1517/Ulasim-Rota-Planlama-Sistemi",
+    "featured": false,
+    "category": "system",
+    "lang": "csharp",
+    "langName": "C# / WinForms",
+    "badge": "Graf Teorisi",
+    "icon": "🚇",
+    "desc": "Toplu taşıma ve lojistik durakları arasındaki en kısa ve en az aktarmalı yolları hesaplayan C# Windows Forms optimizasyon yazılımı. Dijkstra algoritması ve dinamik graf çizimi.",
+    "tags": [
+      "C#",
+      "Dijkstra Algoritması",
+      "Graf Teorisi",
+      "Windows Forms",
+      "Lojistik"
+    ],
+    "highlights": [
+      "Dijkstra en kısa yol hesabı",
+      "Görsel durak ve hat haritası",
+      "Maliyet ve aktarma minimizasyonu"
+    ]
+  },
+  {
+    "id": "management-system",
+    "name": "Proje ve Öğrenci Yönetim Sistemi",
+    "repoName": "Management_System-Asp.net.api-react",
+    "url": "https://github.com/enes1517/Management_System-Asp.net.api-react",
+    "featured": false,
+    "category": "web",
+    "lang": "csharp",
+    "langName": "C# / React",
+    "badge": "Full-Stack SPA",
+    "icon": "🎓",
+    "desc": "Öğrencilerin bitirme ve araştırma projelerine başvurmasını, danışmanların ise başvuruları değerlendirmesini sağlayan ASP.NET Core Web API backend ve React frontend sistemi.",
+    "tags": [
+      "ASP.NET API",
+      "React",
+      "N-Tier",
+      "Entity Framework",
+      "Role Auth"
+    ],
+    "highlights": [
+      "Rol tabanlı yetkilendirme (Öğrenci/Yönetici)",
+      "Proje başvuru onay akışı",
+      "React SPA modern frontend"
+    ]
+  },
+  {
+    "id": "store-app",
+    "name": "E-Ticaret Mağaza Uygulaması",
+    "repoName": "Store_App-Mvc",
+    "url": "https://github.com/enes1517/Store_App-Mvc",
+    "featured": false,
+    "category": "web",
+    "lang": "csharp",
+    "langName": "C# / MVC",
+    "badge": "E-Ticaret",
+    "icon": "🛍️",
+    "desc": "ASP.NET Core MVC mimarisiyle geliştirilmiş tam teşekküllü mağaza sistemi. Ürün kataloğu, sepet yönetimi, kullanıcı sipariş döngüsü ve admin CRUD paneli.",
+    "tags": [
+      "ASP.NET Core MVC",
+      "C#",
+      "E-Commerce",
+      "Entity Framework",
+      "Razor"
+    ],
+    "highlights": [
+      "Kapsamlı ürün ve kategori kataloğu",
+      "Alışveriş sepeti ve sipariş döngüsü",
+      "Yönetim paneli CRUD operasyonları"
+    ]
+  },
+  {
+    "id": "library-tracking",
+    "name": "Kütüphane Takip Sistemi",
+    "repoName": "Library-Tracking-System",
+    "url": "https://github.com/enes1517/Library-Tracking-System",
+    "featured": false,
+    "category": "csharp",
+    "lang": "csharp",
+    "langName": "C# / WinForms",
+    "badge": "Masaüstü Veritabanı",
+    "icon": "📖",
+    "desc": "Kitap envanteri, üye kayıtları, ödünç alma/iade süreleri ve ceza takibi işlemlerini gerçekleştiren C# Windows Forms masaüstü yönetim yazılımı.",
+    "tags": [
+      "C#",
+      "WinForms",
+      "SQL Server",
+      "CRUD",
+      "Envanter"
+    ],
+    "highlights": [
+      "Kitap ve üye veri tabanı yönetimi",
+      "Ödünç alma/iade takvim kontrolü",
+      "Gecikme cezası hesaplama"
+    ]
+  },
+  {
+    "id": "phone-directory-cs",
+    "name": "Telefon Rehberi CRUD (Windows Forms)",
+    "repoName": "Phone_Directory_Project",
+    "url": "https://github.com/enes1517/Phone_Directory_Project",
+    "featured": false,
+    "category": "csharp",
+    "lang": "csharp",
+    "langName": "C# / EF Core",
+    "badge": "EF Core Desktop",
+    "icon": "📱",
+    "desc": "C# Windows Forms ve Entity Framework Core kullanılarak geliştirilmiş; anlık arama, rehber kişileri yönetimi ve ilişkisel veri tabanı CRUD operasyonları.",
+    "tags": [
+      "C#",
+      "Entity Framework",
+      "WinForms",
+      "CRUD",
+      "Search Engine"
+    ],
+    "highlights": [
+      "Entity Framework Core veri katmanı",
+      "Anlık arama ve dinamik filtreleme",
+      "Temiz ve sezgisel kullanıcı arayüzü"
+    ]
+  },
+  {
+    "id": "phone-directory-c",
+    "name": "Telefon Rehberi (C Dili & Bellek)",
+    "repoName": "Phone_Directory",
+    "url": "https://github.com/enes1517/Phone_Directory",
+    "featured": false,
+    "category": "system",
+    "lang": "c",
+    "langName": "C Language",
+    "badge": "Düşük Seviye C",
+    "icon": "📟",
+    "desc": "C dilinde dinamik bellek tahsisi (malloc/free), çift yönlü bağlı listeler ve dosya I/O operasyonları ile geliştirilmiş yüksek performanslı rehber uygulaması.",
+    "tags": [
+      "C Language",
+      "Pointers",
+      "Dynamic Memory",
+      "File I/O",
+      "Bağlı Liste"
+    ],
+    "highlights": [
+      "Pointer ve dinamik bellek yönetimi",
+      "Dosya kalıcılığı (file serialization)",
+      "Bağlı liste veri yapısı"
+    ]
+  },
+  {
+    "id": "graph-project",
+    "name": "Graf Veri Yapıları ve Algoritmaları",
+    "repoName": "graph_project",
+    "url": "https://github.com/enes1517/graph_project",
+    "featured": false,
+    "category": "system",
+    "lang": "csharp",
+    "langName": "C# Algoritmalar",
+    "badge": "Veri Yapıları",
+    "icon": "🕸️",
+    "desc": "C# ile nesne yönelimli olarak geliştirilen graf veri yapısı kütüphanesi. Derinlik öncelikli (DFS) ve genişlik öncelikli (BFS) arama algoritmaları.",
+    "tags": [
+      "C#",
+      "Graph Data Structure",
+      "BFS",
+      "DFS",
+      "Algoritmalar"
+    ],
+    "highlights": [
+      "Graf düğüm ve kenar mimarisi",
+      "DFS (Depth-First Search) implementasyonu",
+      "BFS (Breadth-First Search) implementasyonu"
+    ]
+  },
+  {
+    "id": "card-game",
+    "name": "Strateji Kart Oyunu",
+    "repoName": "Card_Game",
+    "url": "https://github.com/enes1517/Card_Game",
+    "featured": false,
+    "category": "mobile",
+    "lang": "csharp",
+    "langName": "C# OOP",
+    "badge": "Oyun Mantığı",
+    "icon": "🃏",
+    "desc": "Nesne Yönelimli Programlama (OOP) prensipleri, durum makineleri ve oyun kuralları motoru içeren C# kart strateji oyunu.",
+    "tags": [
+      "C#",
+      "OOP",
+      "Game Loop",
+      "Tasarım Desenleri",
+      "State Machine"
+    ],
+    "highlights": [
+      "Kapsamlı OOP sınıf hiyerarşisi",
+      "Oyun döngüsü ve tur yönetimi",
+      "Etkileşimli konsol arayüzü"
+    ]
+  },
+  {
+    "id": "web-mvc-book",
+    "name": "Web MVC Kitap Kataloğu ve İnceleme",
+    "repoName": "Web-Mvc-Book",
+    "url": "https://github.com/enes1517/Web-Mvc-Book",
+    "featured": false,
+    "category": "web",
+    "lang": "csharp",
+    "langName": "C# / HTML",
+    "badge": "MVC Web",
+    "icon": "📕",
+    "desc": "Kitap kataloğu, yazar sayfaları, kullanıcı yorumları ve puanlama mekanizmalarını barındıran ASP.NET MVC web uygulaması.",
+    "tags": [
+      "ASP.NET MVC",
+      "C#",
+      "HTML/CSS",
+      "Razor",
+      "CRUD"
+    ],
+    "highlights": [
+      "Kitap inceleme ve puanlama sistemi",
+      "ProductController ile CRUD operasyonları",
+      "Responsive Razor view katmanı"
+    ]
+  },
+  {
+    "id": "mvc-api",
+    "name": "MVC & RESTful API Entegrasyonu",
+    "repoName": "Mvc-Api",
+    "url": "https://github.com/enes1517/Mvc-Api",
+    "featured": false,
+    "category": "csharp",
+    "lang": "csharp",
+    "langName": "C# API",
+    "badge": "Servis Katmanı",
+    "icon": "🔗",
+    "desc": "Modern ASP.NET Core üzerinde MVC ön yüzü ile RESTful Web API servislerinin entegrasyonunu, repository modelini ve HttpClient veri tüketimini modelleyen proje.",
+    "tags": [
+      "C#",
+      "ASP.NET Core",
+      "RESTful API",
+      "HttpClient",
+      "Repository Pattern"
+    ],
+    "highlights": [
+      "HttpClient servis tüketimi",
+      "Repository & Service katmanı",
+      "Asenkron API mimarisi"
+    ]
+  },
+  {
+    "id": "active-record-demo",
+    "name": "Active Record ORM Pattern Mimarisi",
+    "repoName": "ActiveRecordDemo",
+    "url": "https://github.com/enes1517/ActiveRecordDemo",
+    "featured": false,
+    "category": "system",
+    "lang": "csharp",
+    "langName": "C# Mimarisi",
+    "badge": "Tasarım Deseni",
+    "icon": "🏛️",
+    "desc": "Kurumsal mimarilerde kullanılan Active Record tasarım deseninin implementasyonu; veri erişim mantığı ile iş nesnelerinin birleşimi üzerine eğitici mimari çalışma.",
+    "tags": [
+      "Design Pattern",
+      "Active Record",
+      "Software Architecture",
+      "ORM"
+    ],
+    "highlights": [
+      "Active Record pattern modellemesi",
+      "Veritabanı nesne soyutlama",
+      "Mimari şablon yapısı"
+    ]
+  },
+  {
+    "id": "portfolyom",
+    "name": "Kişisel Portfolyo Web Sitesi",
+    "repoName": "Portfolyom",
+    "url": "https://github.com/enes1517/Portfolyom",
+    "featured": false,
+    "category": "web",
+    "lang": "html",
+    "langName": "HTML / JS / CSS",
+    "badge": "Modern UI/UX",
+    "icon": "⚡",
+    "desc": "Modern cam efektleri (glassmorphism), karanlık tema, dinamik filtreleme & anlık arama motoru, etkileşimli proje modalları ve tam duyarlı tasarıma sahip kişisel portfolyo.",
+    "tags": [
+      "HTML5",
+      "CSS3 Glassmorphism",
+      "Vanilla JavaScript",
+      "Responsive Design"
+    ],
+    "highlights": [
+      "Performans odaklı Vanilla JS & CSS",
+      "Canlı arama ve kategori filtreleme",
+      "Etkileşimli modal ve bildirimler"
+    ]
+  }
+]
